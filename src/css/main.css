@@ -1,7 +1,30 @@
-/* Decent Defaults */
+:root {
+  /* Colors: */
+  --russian-violet: #240b36;
+  --dark-slate: #315659;
+  --celadon-blue: #2978a0;
+  --maize-crayola: #f4c95d;
+  --green-yellow-crayola: #e7e393;
+}
 
-img,
-video {
-  width: 100%;
-  height: auto;
+body {
+  background-color: var(--dark-slate);
+}
+h1 {
+  font-family: "Pokemon Solid", sans-serif;
+  text-align: center;
+  color: var(--maize-crayola);
+  font-size: 7vw;
+}
+p {
+  font-family: "Shippori Antique B1", sans-serif;
+  color: var(--green-yellow-crayola);
+}
+button {
+  background-color: var(--celadon-blue);
+  color: var(--green-yellow-crayola);
+  border: none;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 1.3rem;
 }
