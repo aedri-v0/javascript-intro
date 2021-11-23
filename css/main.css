@@ -27,4 +27,41 @@ button {
   padding: 0.7rem;
   font-size: 1.2rem;
   border-radius: 1.3rem;
+  font-family: "Pokemon Solid", sans-serif;
+}
+
+label {
+  font-family: "Shippori Antique B1", sans-serif;
+  color: var(--green-yellow-crayola);
+  text-transform: capitalize;
+  font-size: 4vw;
+}
+
+#win,
+#lose,
+#reset {
+  display: none;
+}
+
+#win.active,
+#lose.active,
+#reset.active {
+  display: flex;
+}
+#wtp-sprite {
+  width: 50%;
+  display: flex;
+  filter: brightness(0);
+  float: right;
+  margin: 0%;
+  position: absolute;
+  left: 40%;
+  z-index: -1;
+}
+#wtp-sprite.solved {
+  filter: none;
+}
+
+#sub {
+  text-align: center;
 }

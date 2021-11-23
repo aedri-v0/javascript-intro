@@ -18,13 +18,20 @@
   <body>
     <p id="num"></p>
     <h1>Who's That Pokémon?</h1>
-    <p>Click the button below for the next sprite.</p>
-    <button>Get Random Pokémon</button>
-    <img
-      id="wtp-sprite"
-      alt="Who's That Pokemon"
-      width="80%"
-      style="display: block; filter: brightness(0); justify-content: center"
-    />
+    <p id="sub">A fun chance to test your knowledge of all 898 Pokémon!</p>
+    <img id="wtp-sprite" alt="Who's That Pokemon" />
+
+    <input type="radio" id="poke1" name="whichone" value="0" />
+    <label for="poke1">p1</label><br />
+    <input type="radio" id="poke2" name="whichone" value="1" />
+    <label for="poke2">p2</label><br />
+    <input type="radio" id="poke3" name="whichone" value="2" />
+    <label for="poke3">p3</label><br />
+    <input type="radio" id="poke4" name="whichone" value="3" />
+    <label for="poke4">p4</label><br />
+    <p id="win">You Win!! Good Job</p>
+    <p id="lose">Maybe Next Time, Sorry :(</p>
+    <button id="Submit">Submit</button><br />
+    <button id="reset">Reset</button>
   </body>
 </html>
