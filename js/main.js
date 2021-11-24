@@ -84,7 +84,7 @@ function checkCorrect() {
     document.getElementById("lose").classList.add("active");
     document.getElementById("win").classList.remove("active");
     document.getElementById("reset").classList.add("active");
-    document.getElementById("wtp-sprite").classList.add("solved");
+    document.getElementById("wtp-sprite").classList.remove("solved");
   }
 }
 

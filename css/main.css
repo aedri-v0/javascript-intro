@@ -37,6 +37,14 @@ label {
   font-size: 4vw;
 }
 
+input[type="radio"] {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+input[type="radio"]:checked + label {
+  color: var(--russian-violet);
+}
 #win,
 #lose,
 #reset {
