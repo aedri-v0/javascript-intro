@@ -9,7 +9,9 @@
 
 body {
   background-color: var(--dark-slate);
+  opacity: 1;
 }
+
 h1 {
   font-family: "Pokemon Solid", sans-serif;
   text-align: center;
